@@ -56,6 +56,7 @@ module rv32i_register_tb (
         read_enable = 0;
         write_enable = 1;
         register = 5'd0;
+        write_data = 32'd134;
         @(posedge clk);
         #1;
         write_enable = 0;

@@ -14,10 +14,10 @@ always @(posedge clk) begin
     if (write_enable && (register != 5'd0))
         gp_register[register] <= write_data;
 end
-assign register_data = read_enable
-                     ? ((register == 5'd0)
-                        ? {DATA_WIDTH{1'b0}}
-                        : gp_register[register])
-                     : {DATA_WIDTH{1'b0}};
+wire [DATA_WIDTH-1:0] read_data =
+    read_enable ? gp_register[register] : {DATA_WIDTH{1'b0}};
+
+assign register_data =
+    (register == 5'd0) ? {DATA_WIDTH{1'b0}} : read_data;
 
 endmodule
