@@ -27,7 +27,10 @@ reg [31:0] pc = 0;
 
 always @(posedge clk or negedge rst) begin
     if (!rst) begin
-
+        gp_write_enable <= 0;
+        gp_read_enable <= 0;
+        gp_write_data <= 0;
+        pc <= 0;
         clockCounter <= 0;
     end
     else begin
