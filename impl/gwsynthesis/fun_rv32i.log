@@ -5,10 +5,10 @@ Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Document
 Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_memory.v'
 Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_decoder.v'
 Compiling module 'top'("D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_main.v":1)
+WARN  (EX3780) : Using initial value of 'clockHalf' since it is never assigned("D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_main.v":8)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_main.v":19)
 NOTE  (EX0101) : Current top module is "top"
 [5%] Running netlist conversion ...
-WARN  (CV0016) : Input rst is unused("D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_main.v":2)
-WARN  (CV0016) : Input clk is unused("D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_main.v":3)
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
 [15%] Optimizing Phase 1 completed

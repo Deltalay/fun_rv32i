@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top"/>
+<Module name="top" Register="25" Lut="48" T_Register="25(25)" T_Lut="48(48)"/>
