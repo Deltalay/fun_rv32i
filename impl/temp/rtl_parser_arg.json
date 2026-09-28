@@ -2,19 +2,19 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/src/rv32i_main.v",
+   "Path" : "D:/project/learn_tang/fun_rv32i/src/rv32i_alu.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/src/rv32i_alu.v",
+   "Path" : "D:/project/learn_tang/fun_rv32i/src/rv32i_decoder.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/src/rv32i_memory.v",
+   "Path" : "D:/project/learn_tang/fun_rv32i/src/rv32i_main.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/src/rv32i_decoder.v",
+   "Path" : "D:/project/learn_tang/fun_rv32i/src/rv32i_memory.v",
    "Type" : "verilog"
   }
  ],
@@ -22,7 +22,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/impl/temp/rtl_parser.result",
+ "ResultFile" : "D:/project/learn_tang/fun_rv32i/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

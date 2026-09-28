@@ -1,9 +1,17 @@
 [
  {
-  "InstFile" : "D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/src/rv32i_main.v",
+  "InstFile" : "D:/project/learn_tang/fun_rv32i/src/rv32i_decoder.v",
+  "InstLine" : 1,
+  "InstName" : "rv32i_decoder",
+  "ModuleFile" : "D:/project/learn_tang/fun_rv32i/src/rv32i_decoder.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "rv32i_decoder"
+ },
+ {
+  "InstFile" : "D:/project/learn_tang/fun_rv32i/src/rv32i_main.v",
   "InstLine" : 1,
   "InstName" : "top",
-  "ModuleFile" : "D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/src/rv32i_main.v",
+  "ModuleFile" : "D:/project/learn_tang/fun_rv32i/src/rv32i_main.v",
   "ModuleLine" : 1,
   "ModuleName" : "top"
  }

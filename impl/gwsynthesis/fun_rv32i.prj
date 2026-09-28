@@ -4,16 +4,16 @@
     <Version>beta</Version>
     <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
     <FileList>
-        <File path="D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_main.v" type="verilog"/>
-        <File path="D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_alu.v" type="verilog"/>
-        <File path="D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_memory.v" type="verilog"/>
-        <File path="D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_decoder.v" type="verilog"/>
+        <File path="D:\project\learn_tang\fun_rv32i\src\rv32i_alu.v" type="verilog"/>
+        <File path="D:\project\learn_tang\fun_rv32i\src\rv32i_decoder.v" type="verilog"/>
+        <File path="D:\project\learn_tang\fun_rv32i\src\rv32i_main.v" type="verilog"/>
+        <File path="D:\project\learn_tang\fun_rv32i\src\rv32i_memory.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
         <Option type="global_freq" value="50.000"/>
         <Option type="looplimit" value="2000"/>
-        <Option type="output_file" value="D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\impl\gwsynthesis\fun_rv32i.vg"/>
+        <Option type="output_file" value="D:\project\learn_tang\fun_rv32i\impl\gwsynthesis\fun_rv32i.vg"/>
         <Option type="print_all_synthesis_warning" value="0"/>
         <Option type="ram_rw_check" value="0"/>
         <Option type="vcc" value="1.2"/>
