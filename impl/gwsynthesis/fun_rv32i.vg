@@ -1,0 +1,38 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.03 Education"
+//Mon Sep 28 16:34:45 2026
+
+//Source file index table:
+//file0 "\D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/src/rv32i_alu.v"
+//file1 "\D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/src/rv32i_main.v.v"
+//file2 "\D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/src/rv32i_decoder.v.v"
+//file3 "\D:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/fun_rv32i/src/rv32i_memory.v.v"
+`pragma protect begin_protected
+`pragma protect version="2.3"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.3"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
+`pragma protect key_block
+LurDOF0umJSP0i/Cw9RySvHDktKQbwGSEnBA4llsJy7Qbac9etO2k8ZoHbhDrPR1kpA68j76Usz/
+M9GEzaqor9Cqwn3UGgEh3sYadRkL8xyFMiyHgCFv8LIJUT97zuWHvnrBh6Dl3vLCS1FQG7AhlTBW
+XFr3VwNJkmxi2vxiRNnEcbqVSzcJDq+woVu/LumvBB8ZJW2pRhhWtR4RkKl0G2IqCKfg903H/Krb
+IhgXk49yZ1IBpFlMncwmJ1ekHtZ18tIJaeA0KZ4KshITOoQPW//nH/5/5qyLf3EruoIOhyAJB6/F
+tSWDTX0GWAy9py4RqdWttnGtyae/fzSLjq8hcw==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=336)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cfb"
+`pragma protect data_block
+ElH0XN0bT1/bUWQ8LteVnXkzFlfTEDoNmR2FspaqQ7qs8wJC4QBFXd+7OSBxb6H/Z2Kkq3Gsdkwl
+2ghtxUZvDGYh6DlhlzR5LZdHk75VDxPMoj41DCUQZPRcic+chL1MvailBeob5gYHeVT8ik1vzVng
+BhAlw1m1YhJ5HTzF36X5OEgJs9JaHnXiz3NXDkUtYhlcKF8LbRyEXuxVt/adqo3GVorIPc4sAvM8
+UWoHKKHCNMG5h+gisg71JkgQQy6pyWgg8qFZUDWPp1Wz/Z2AY7EnFqKpVTvRBblgM7Ui7gOuZoJo
+pgqqT99DYlqWVFKdU76Jm7FMK2CBihgfEYVhJP4XYV7Liy0yNt/n39XFs8tyOBR6uNK6EyboUiJn
+lqUlPqhIlwpGjrWUlBwcF/4lqL4crSGyi6jUC5CeEHT0fu/BRppaMZAlrvztQnQ1yyYm
+`pragma protect end_protected

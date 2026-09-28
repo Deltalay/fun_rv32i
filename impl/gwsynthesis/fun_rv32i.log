@@ -1,0 +1,7 @@
+GowinSynthesis start
+Running parser ...
+ERROR (EX5998) : Cannot open Verilog file 'D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_main.v.v'
+ERROR (EX5998) : Cannot open Verilog file 'D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_decoder.v.v'
+ERROR (EX5998) : Cannot open Verilog file 'D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_memory.v.v'
+Analyzing Verilog file 'D:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\fun_rv32i\src\rv32i_alu.v'
+GowinSynthesis finish
