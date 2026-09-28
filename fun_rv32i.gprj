@@ -9,6 +9,7 @@
         <File path="src/rv32i_decoder.v" type="file.verilog" enable="1"/>
         <File path="src/rv32i_main.v" type="file.verilog" enable="1"/>
         <File path="src/rv32i_memory.v" type="file.verilog" enable="1"/>
+        <File path="src/rv32i_register.v" type="file.verilog" enable="1"/>
         <File path="src/fun_rv32i.cst" type="file.cst" enable="1"/>
         <File path="src/fun_rv32i.sdc" type="file.sdc" enable="1"/>
     </FileList>

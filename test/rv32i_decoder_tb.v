@@ -10,7 +10,7 @@ module rv32i_decoder_tb (
     wire [4:0] rd;
     wire [2:0] funct3;
     wire [6:0] funct7;
-    rv32i_decoder rv32i_decoder (
+    rv32i_decoder u_rv32i_decoder (
     	.instruction     (instruction),
     	.instruction_type(instruction_type),
     	.rs1             (rs1),

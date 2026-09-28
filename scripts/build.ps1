@@ -14,7 +14,7 @@ New-Item -ItemType Directory -Path $Build | Out-Null
 Push-Location $Build
 
 try {
-    yosys -p "read_verilog ../src/rv32i_main.v ../src/rv32i_alu.v ../src/rv32i_memory.v ../src/rv32i_decoder.v; synth_gowin -top top -json cpu.json"
+    yosys -p "read_verilog ../src/rv32i_main.v ../src/rv32i_register.v ../src/rv32i_alu.v ../src/rv32i_memory.v ../src/rv32i_decoder.v; synth_gowin -top top -json cpu.json"
 
 
     nextpnr-himbaechel `
