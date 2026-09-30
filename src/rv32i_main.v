@@ -23,8 +23,25 @@ general_register #(
 	.write_data   (gp_write_data),
 	.register_data(gp_read_data)
 );
-reg [31:0] pc = 0;
+reg mem_write_enable = 0;
+reg mem_read_enable = 1;
+reg [31:0] mem_read_address;
+reg [31:0] mem_write_address;
+wire [31:0] mem_read_data;
+reg [31:0] mem_write_data;
+reg [3:0] mem_write_byte;
+memory_module u_memory_module (
+	.clk          (clk),
+	.write_enable (mem_write_enable),
+	.read_enable  (mem_read_enable),
+	.write_address(mem_write_address),
+	.write_byte   (mem_write_byte),
+	.write_data   (mem_write_data),
+	.read_address (mem_read_address),
+	.read_data    (mem_read_data)
+);
 
+reg [31:0] pc = 0;
 always @(posedge clk or negedge rst) begin
     if (!rst) begin
         gp_write_enable <= 0;
@@ -32,11 +49,13 @@ always @(posedge clk or negedge rst) begin
         gp_write_data <= 0;
         pc <= 0;
         clockCounter <= 0;
+
     end
     else begin
 
         if (clockCounter == clockHalf) begin
             led_reg <= led_reg ^ 1;
+            mem_write_address <= 2;
             clockCounter <= 0;
         end
         else clockCounter <= clockCounter + 1;
