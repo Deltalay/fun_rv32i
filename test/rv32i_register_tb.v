@@ -43,7 +43,38 @@ module rv32i_register_tb (
             $display("PASS: x1 = %d", register_data);
         else
             $error("FAIL: x1 expected 123, got %d", register_data);
-        #10;
+        #1;
+        register = 5'd2;
+        write_data = 32'd456;
+        write_enable = 1;
+        @(posedge clk);
+        #1;
+
+        write_enable = 0;
+        register = 5'd2;
+        read_enable = 1;
+        #1
+        if (register_data == 32'd456)
+            $display("PASS: x2 = %d", register_data);
+        else
+            $error("FAIL: x2 expected 456, got %d", register_data);
+
+        #1
+        register = 5'd31;
+        write_data = 32'hDEADBEEF;
+        write_enable = 1;
+        @(posedge clk);
+        #1;
+
+        write_enable = 0;
+        register = 5'd31;
+        read_enable = 1;
+        #1
+        if (register_data == 32'hDEADBEEF)
+            $display("PASS: x31 = %h", register_data);
+        else
+            $error("FAIL: x31 expected DEADBEEF, got %h", register_data);
+        #10
         read_enable = 1;
         register = 5'd0;
         #1
