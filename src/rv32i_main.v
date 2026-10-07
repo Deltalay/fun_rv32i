@@ -3,6 +3,12 @@ module top(
     input wire clk,
     output wire led
 );
+localparam [2:0] PL_INSTRUCTION_FETCH = 3'b000;
+localparam [2:0] PL_INSTRUCTION_DECODE = 3'b001;
+localparam [2:0] PL_EXECUTE = 3'b010;
+localparam [2:0] PL_MEMORY = 3'b011;
+localparam [2:0] PL_WRITE_BACK = 3'b100;
+
 localparam GP_DATA_WIDTH = 32;
 reg [23:0] clockCounter = 0;
 reg [23:0] clockHalf = 13500000;
