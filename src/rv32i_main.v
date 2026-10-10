@@ -14,7 +14,6 @@ reg [23:0] clockCounter = 0;
 reg [23:0] clockHalf = 13500000;
 reg [0:0] led_reg = 1;
 reg gp_write_enable = 0;
-reg gp_read_enable = 1;
 reg [4:0] gp_rd1 = 1;
 reg [4:0] gp_rd2 = 0;
 reg [4:0] gp_write_register = 1;
@@ -29,7 +28,6 @@ general_register #(
  ) u_general_register  (
 	.clk          (clk),
 	.write_enable (gp_write_enable),
-	.read_enable  (gp_read_enable),
 	.rd1     (gp_rd1),
 	.rd2     (gp_rd2),
 	.write_register (gp_write_register),
@@ -59,7 +57,6 @@ reg [31:0] pc = 0;
 always @(posedge clk or negedge rst) begin
     if (!rst) begin
         gp_write_enable <= 0;
-        gp_read_enable <= 0;
         gp_write_data <= 0;
         pc <= 0;
         clockCounter <= 0;
