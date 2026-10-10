@@ -15,9 +15,14 @@ reg [23:0] clockHalf = 13500000;
 reg [0:0] led_reg = 1;
 reg gp_write_enable = 0;
 reg gp_read_enable = 1;
-reg [4:0] gp_register = 1;
+reg [4:0] gp_rd1 = 1;
+reg [4:0] gp_rd2 = 0;
+reg [4:0] gp_write_register = 1;
+
 reg [GP_DATA_WIDTH-1:0] gp_write_data;
-wire [GP_DATA_WIDTH-1:0] gp_read_data;
+wire [GP_DATA_WIDTH-1:0] gp_rd1_data;
+wire [GP_DATA_WIDTH-1:0] gp_rd2_data;
+
 general_register #(
 	.DATA_WIDTH(GP_DATA_WIDTH),
 	.AMOUNT    (32)
@@ -25,9 +30,12 @@ general_register #(
 	.clk          (clk),
 	.write_enable (gp_write_enable),
 	.read_enable  (gp_read_enable),
-	.register     (gp_register),
+	.rd1     (gp_rd1),
+	.rd2     (gp_rd2),
+	.write_register (gp_write_register),
 	.write_data   (gp_write_data),
-	.register_data(gp_read_data)
+	.rd1_data (gp_rd1_data),
+	.rd2_data (gp_rd2_data)
 );
 reg mem_write_enable = 0;
 reg mem_read_enable = 1;
